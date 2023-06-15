@@ -23,3 +23,17 @@ legend {
 	font-weight: bold;
 	font-size: 1.2rem;
 }
+
+label {
+	display: block;
+	margin-bottom: 1rem;
+}
+
+input {
+	display: block;
+	width: 100%;
+	margin-top: .3rem;
+	font-size: 1.3rem;
+	padding: .3rem;
+}
+
