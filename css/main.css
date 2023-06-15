@@ -1,0 +1,25 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	padding: 2rem;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+	margin-bottom: 2rem;
+}
+
+fieldset {
+	padding: 1rem;
+	border-radius: 5px;
+	background-color: #ccc;
+}
+
+legend {
+	font-weight: bold;
+	font-size: 1.2rem;
+}
