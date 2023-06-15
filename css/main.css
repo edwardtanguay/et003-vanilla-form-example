@@ -39,7 +39,7 @@ label.row label {
 	margin-bottom: .5rem;
 }
 
-div.levels, div.techItems {
+.levels, .techItems {
 	margin-top: 1rem;
 	margin-left: 1rem;
 }
