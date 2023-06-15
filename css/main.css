@@ -38,7 +38,22 @@ input[type="text"], input[type="email"], input[type="number"] {
 	padding: .3rem;
 }
 
-.techItem input [type="checkbox"] {}
+.techItems input [type="checkbox"] {
+}
 
-.techItem label {
+.techItems label {
+	/* flex-basis: 100px; */
+	flex-flow: row wrap;
+	min-width: 150px;
+	/* flex-grow: 1; */
+	/* outline: 1px solid blue; */
+	
+}
+
+.techItems {
+	display: flex;
+	margin-top: 1rem;
+	flex-wrap: wrap;
+	/* gap: 1rem; */
+	/* outline: 1px solid red; */
 }
