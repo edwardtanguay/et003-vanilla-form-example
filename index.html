@@ -18,13 +18,13 @@
 		<fieldset>
 			<legend>New Customer Contact Form</legend>
 
-			<label>Full name<input type="text" /></label>
+			<label class="row">Full name<input type="text" /></label>
 
-			<label>Email<input type="email" /></label>
+			<label class="row">Email<input type="email" /></label>
 
-			<label>Age<input type="number" /></label>
+			<label class="row">Age<input type="number" /></label>
 
-			<label>What technologies are you interested in?
+			<label class="row multiple">What technologies are you interested in?
 				<div class="techItems">
 
 					<label>
@@ -67,6 +67,32 @@
 							   name="mongodb"
 							   value="mongodb">
 						MongoDB
+					</label>
+
+				</div>
+			</label>
+
+			<label class="row multiple">What is your experience level as a developer?
+				<div class="levels">
+					<label>
+						<input type="radio"
+							   name="level"
+							   value="junior">
+						junior
+					</label>
+
+					<label>
+						<input type="radio"
+							   name="level"
+							   value="intermediate">
+						intermediate
+					</label>
+
+					<label>
+						<input type="radio"
+							   name="level"
+							   value="senior">
+						senior
 					</label>
 
 				</div>

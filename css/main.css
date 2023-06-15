@@ -30,6 +30,20 @@ label {
 	user-select: none;
 }
 
+label.row {
+	font-weight: bold;
+}
+
+label.row label {
+	font-weight: normal;
+	margin-bottom: .5rem;
+}
+
+div.levels, div.techItems {
+	margin-top: 1rem;
+	margin-left: 1rem;
+}
+
 input[type="text"], input[type="email"], input[type="number"] {
 	display: block;
 	width: 100%;
@@ -52,7 +66,6 @@ input[type="text"], input[type="email"], input[type="number"] {
 
 .techItems {
 	display: flex;
-	margin-top: 1rem;
 	flex-wrap: wrap;
 	/* gap: 1rem; */
 	/* outline: 1px solid red; */
